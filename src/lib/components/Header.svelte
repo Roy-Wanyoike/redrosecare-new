@@ -1,11 +1,11 @@
 <script>
     let services = [
-    { name: "Elderly Care", link: "/services/elderly-care" },
+    { name: "Elderly Care", link: "/services/elderly-care" }, 
     { name: "Home Cleaning", link: "/services/home-cleaning" },
     { name: "Post-Surgery Care", link: "/services/post-surgery-care" },
     { name: "Companion Care", link: "/services/companion-care" },
-    { name: "Palliative Care", link: "/services/palliative-care" },
-    { name: "Child Care", link: "/services/child-care" },
+    { name: "Palliative Care", link: "/services/palliative-care" }, 
+    { name: "Child Care", link: "/services/child-care" }, 
     { name: "Meal Preparation", link: "/services/meal-preparation" },
     { name: "Respite Care", link: "/services/respite-care" },
     { name: "Dementia and Alzheimer’s Care", link: "/services/dementia-and-Alzheimer" },
@@ -17,200 +17,74 @@
     {name: "Physical Therapy", link: "/services/physical-therapy"},
     {name: "Psychotherapy", link: "/services/psychotherapy"},
     {name: "Nutritionists", link: "/services/nutrition"},
-    {name: "Support Groups", link: "/services/support-groups"},
+    {name: "Support Groups", link: "/services/support-groups"}, 
     {name: "Yoga and Meditation", link: "/services/yoga-and-meditation"},
     {name: "Grief Counseling", link: "/services/grief-counseling"},
     {name: "Counseling for Addiction", link: "/services/counseling-for-addiction"},
-    
-
-
   ];
+
+  let dropdownOpen = false;
   </script>
 
-<section class="bg-accent-color-2 py-3">
-    <div class="r-container">
-        <div class="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center gap-3">
-            <ul class="d-flex m-0 flex-lg-row flex-column justify-content-center align-items-center gap-3 text-white  text-center text-lg-start"
-                style="list-style: none;">
-                
-                <li class="mr-2">
-                    
-                     <a href="tel:+447904096889">
-                       Click to Call Us Now</a> 
-                </li>
-                <li>Email : <a href="mailto:hello@redrosecare.com">hello@redrosecare.com</a> </li>
-                <li></li>
-            </ul>
-            
-            <span class="text-white">Opening Hours : 08:00am to 07:00pm</span>
-        </div>
-    </div>
-</section>
-<section class="sticky-top bg-primary">
-    <div class="r-container">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <div class="logo-container">
-                        <img src="image/nobglogo.png" alt="" class="img-fluid text-danger" height="75px">
+    <!-- Top-Header-Section -->
+    <div class="home-header-section home-header-section1">
+        <div class="header-top bg-dark py-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 d-none d-md-block">
+                        <div class="header-left d-table-cell align-middle">
+                            <div class="phone-icon d-inline-block text-white"><i class="fa-solid fa-phone-volume"></i></div>
+                            <p class="free-consultation-text d-inline-block mb-0 text-white">For a free consultation: <a href="tel:+123456789" class="text-decoration-none text-luminous-green">0800 123 45 67 890</a></p>
+                        </div>
                     </div>
-                </a>
-                <button class="navbar-toggler accent-color border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-2 fw-bold ">
-                       
-                        <li class="nav-item mx-4">
-                          <a class="nav-link  me-2 text-white" href="/">Home</a>
-                       </li>
-
-                        <li class="nav-item mx-4">
-                            <a class="nav-link  me-2 text-white" href="/about">About Us</a>
-                        </li>
-
-                        <!-- Add a dropdown for "Services" with items "1" and "2" -->
-                        <!-- <li class="nav-item dropdown mx-4">
-                            <a class="nav-link dropdown-toggle text-white" id="servicesDropdown"  data-bs-toggle="dropdown">
-                                Personal Care
-                            </a>
-                            <ul class="dropdown-menu " aria-labelledby="servicesDropdown">
-                                <li><a class="dropdown-item" href="/autism">Autism</a></li>
-                                <li><a class="dropdown-item" href="/mentalhealth">Mental Health</a></li>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header-right float-md-right">
+                            <ul class="list-unstyled d-flex justify-content-end mb-0">
+                                <li class="d-inline-block mx-3"><i class="fa-sharp fa-solid fa-envelope text-white"></i><a class="email-span text-decoration-none text-white" href="mailto:info@redrosecare.com">info@redrosecare.com</a></li>
+                                <li class="d-inline-block"><i class="fa-solid fa-user text-white"></i><a class="user-span text-decoration-none text-white" href="lib/components/Login.svelte">Login</a></li>
                             </ul>
-                        </li> -->
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropbtn">Services</a>
-                            <div class="dropdown-content">
-                              {#each services as service}
-                                <a href={service.link}>{service.name}</a>
-                              {/each}
-                            </div>
-                          </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link  me-2 text-white" href="/contact">Contact Us</a>
-                        </li>
-                    </ul>
-                    <a href="/appointment" class="btn button bg-accent-color" type="button">Book An
-                        Appointment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
+        <!-- Header Section -->
+        <header class="header sticky-top">
+            <div class="main-header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                        <a class="navbar-brand" href="#/">
+                            <img src="/images/nobglogo.png" alt="Logo" class="img-fluid logo-size">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none text-white" href="#/">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none text-white" href="/about">About</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="/services" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                        {#each services as service}
+                                            <a class="dropdown-item text-dark" href={service.link}>{service.name}</a>
+                                        {/each}
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-decoration-none text-white" href="/contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-luminous-green nav-btn" href="/appointment">BOOK AN APPOINTMENT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
     </div>
-</section>
-
-
-<style>
-    /* Basic Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-  
-    body {
-      font-family: Arial, sans-serif;
-    }
-  
-    /* Navbar styling */
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      padding: 15px 30px;
-    }
-  
-    .logo h1 {
-      color: white;
-      font-size: 1.8rem;
-    }
-  
-    .nav-links {
-      list-style-type: none;
-      display: flex;
-      gap: 20px;
-    }
-  
-    .nav-links li {
-      position: relative;
-    }
-  
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 1rem;
-      padding: 8px 16px;
-      display: block;
-      transition: background-color 0.3s;
-    }
-  
-    .nav-links a:hover {
-      background-color: #575757;
-      border-radius: 4px;
-    }
-  
-    /* Dropdown menu styles */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-  
-    .dropbtn {
-      background-color: #333;
-      color: white;
-      padding: 10px 16px;
-      font-size: 1rem;
-      border: none;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-  
-    .dropbtn:hover {
-      background-color: #575757;
-    }
-  
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #333;
-      min-width: 160px;
-      z-index: 1;
-      margin-top: 10px;
-      border-radius: 5px;
-    }
-  
-    .dropdown-content a {
-      padding: 12px 16px;
-      color: white;
-      text-decoration: none;
-      display: block;
-    }
-  
-    .dropdown-content a:hover {
-      background-color: #575757;
-    }
-  
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  
-    .dropdown:hover .dropbtn {
-      background-color: #575757;
-    }
-  
-    /* Mobile responsiveness */
-    @media (max-width: 768px) {
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-  
-      .nav-links {
-        flex-direction: column;
-        gap: 10px;
-      }
-    }
-  </style>

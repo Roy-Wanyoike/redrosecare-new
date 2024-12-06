@@ -3422,102 +3422,146 @@ textarea {
 
 /* login page */
 
-
-.login-form {
-  min-height: 100vh;
-  background-image: url('../images/coming-soon-img.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+  backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
 }
-.login-form .login-form-title {
-  margin-bottom: 40px;
+.logo-size {
+  width: 150px; /* Set the desired width */
+  height: 100px; /* Maintain aspect ratio */
 }
-.login-form .login-page-logo {
-  margin-bottom: 25px;
-}
-.login-form .login-form-box {
-  width: 450px;
+.about-border {
+  width: 50px;
+  height: 3px;
+  background-color: #007bff; /* Bootstrap primary color */
   margin: 0 auto;
-  position: relative;
 }
-.login-form .login-card .form-control:focus{
-  box-shadow: none;
+.carousel-text {
+  font-style: italic;
+  color: #555; /* Darker text for better readability */
 }
-.login-form .login-card label {
-  font-size: 16px;
-  line-height:20px;
-  font-weight: 500;
-  margin-bottom: 13px;
-  color: var(--e-global-color-text);
+.blogs-span {
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
 }
-.login-form .login-card {
-  padding: 30px;
-  margin-bottom: 30px;
-  line-height: 0.8;
-  border: 2px solid var(--e-global-color-accent);
-  background-color: var(--e-global-color-very-dark-black);
+.blogs-title {
+  font-size: 0.9rem;
 }
-.login-form .login-card  .input-field {
-  font-family: 'Barlow', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  height: 61px;
-  line-height: 61px;
-  padding: 0;
-  border-radius: 0;
-  background-color: transparent;
-  color: var(--e-global-color-text);
-  border: none;
-  border-bottom: 1px solid var(--e-global-color-secondary);
+.blogs-text {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
-.login-form .login-card .input-field:focus {
-  outline: none;
-  box-shadow: none;
+footer {
+  background: transparent; /* Fully transparent background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
-.login-form .login-card .btn-primary {
-  font-family: 'Barlow', sans-serif;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 500;
-  padding: 18px 23px;
-  margin-bottom: 16px;
-  width: 100%;
-  text-decoration: none;
-  display: inline-block;
-  color: var(--e-global-color-white);
-  background-color: var(--e-global-color-accent);
-  border: 2px solid var(--e-global-color-accent);
-  border-radius: 0;
+.social-icons a {
+  transition: transform 0.2s, color 0.2s; /* Smooth transition for hover effects */
 }
-.login-form .login-card .btn-primary:hover {
-  background-color: transparent;
-  border: 2px solid var(--e-global-color-accent);
-  color: var(--e-global-color-secondary);
+.social-icons a:hover {
+  transform: scale(1.1);
+  color: #007bff; /* Change color on hover */
 }
-.login-form .login-card .btn-primary:focus{
-  outline: none;
-  box-shadow: none;
+h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
-.login-form .login-card .forgot-password {
-  color: var(--e-global-color-accent);
-  font-size: 18px;
-  line-height: 20px;
-  text-decoration: none;
+.home-banner-section {
+  background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+  color: white; /* Ensure text is white for contrast */
 }
-.login-form .login-card .forgot-password:hover {
-  text-decoration: underline;
+.banner-deserve {
+  color: #39FF14; /* Highlight color for the word "deserve" */
 }
-.login-form .login-form-box .join-now-outer a {
-  font-size: 18px;
-  line-height: 18px;
-  text-decoration: underline;
-  color: var(--e-global-color-primary);
+.banner-btn a {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for button */
 }
-.login-form .login-form-box .join-now-outer a:hover {
-  text-decoration: underline;
+.banner-btn a:hover {
+  background-color: #32CC12; /* Slightly darker green on hover */
+  color: white; /* Ensure text remains white on hover */
 }
-.login-form .login-card .select-option option {
-  font-size: 16px;
-  background-color: var(--e-global-color-dark-grayish-blue);
+.counter-inner-box {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.counter-inner-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.support {
+  color: #007bff; /* Bootstrap primary color */
+}
+.offer-inner-box {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.offer-inner-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.blogs-span {
+  color: #007bff; /* Bootstrap primary color */
+}
+.blogs-content-box {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.blogs-content-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.header-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light border for separation */
+}
+.navbar {
+  background-color: #000000; /* Black background for navbar */
+  border-radius: 15px; /* Rounded edges for the navbar */
+  padding: 10px; /* Add some padding for better spacing */
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+.nav-link {
+  transition: color 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+.nav-link:hover {
+color: #00ff00; /* Luminous green on hover */
+transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.nav-btn {
+margin-left: 20px; /* Space between nav items and button */
+background-color: #00ff00; /* Luminous green for button */
+color: #000; /* Black text for button */
+border-radius: 20px; /* Rounded button */
+padding: 10px 20px; /* Padding for button */
+transition: background 0.3s, transform 0.3s; /* Smooth transition for background and transform */
+border: none; /* Remove default border */
+font-size: 16px; /* Adjust font size for uniformity */
+}
+.nav-btn:hover {
+background-color: #000000; /* Match navbar color on hover */
+color: #00ff00; /* Change text color to luminous green on hover */
+transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.text-luminous-green {
+color: #00ff00; /* Luminous green for text */
+}
+.dropdown-item {
+transition: background 0.3s, color 0.3s; /* Smooth transition for dropdown items */
+}
+.dropdown-item:hover {
+background-color: rgba(0, 255, 0, 0.1); /* Light green background on hover */
+color: #00ff00; /* Change text color to luminous green on hover */
+}
+.rounded-logo {
+border-radius: 15px; /* Adjust the value for more or less rounding */
+max-width: 100%; /* Ensure the logo is responsive */
+height: auto; /* Maintain aspect ratio */
+}
+.about-border {
+  width: 50px;
+  height: 3px;
+  background-color: #007bff; /* Bootstrap primary color */
+  margin: 0 auto;
+}
+.carousel-text {
+  font-style: italic;
+  color: #555; /* Darker text for better readability */
 }

@@ -6,19 +6,50 @@
 
 <Header></Header>
 
-<main>
 
-   
+
+
+         <!-- BANNER-SECTION -->
+         <section class="home-banner-section overflow-hidden" style="background: rgba(0, 0, 0, 3); padding: 60px 0;">
+            <div class="banner-container-box">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-md-0 mb-4 text-md-left text-center">
+                            <div class="home-banner-text" data-aos="fade-up">
+                                <h1 class="text-white display-4 font-weight-bold">We give seniors the love they <span class="banner-deserve" style="color: #39FF14;">deserve</span></h1>
+                                <p class="banner-paragraph text-light mb-4">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident.
+                                </p>
+                                <div class="banner-btn discover-btn-banner">
+                                    <a href="about.html" class="btn btn-success btn-lg text-decoration-none">OUR CARE SERVICES</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="banner-img-section position-relative">
+                                <figure class="banner-img2-figure">
+                                    <img src="/images/index-banner-right-img.png" alt="Banner Image" class="img-fluid rounded shadow-lg" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+ 
     <!-- offer-section -->
     <div class="offer-section offer-section1" data-aos="fade-up">
-        <h2>We offer you the  <span class="support">best support</span></h2>
+        <h2 class="text-white">We offer you the <span class="support">best support</span></h2>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 mb-lg-0 mb-md-0 mb-3">
                     <div class="offer-section-box">
                         <div class="offer-section-inner">
                             <figure>
-                                <img src="assets/images/offer-section-img1.png" alt="" class="img-fluid">
+                                <img src="/images/offer-section-img1.png" alt="" class="img-fluid">
                             </figure>
                         </div>
                         <h5>Home Care</h5>
@@ -29,7 +60,7 @@
                     <div class="offer-section-box">
                         <div class="offer-section-inner">
                             <figure>
-                                <img src="assets/images/offer-section-img2.png" alt="" class="img-fluid">
+                                <img src="/images/offer-section-img2.png" alt="" class="img-fluid">
                             </figure>
                         </div>
                         <h5>Care Services</h5>
@@ -40,7 +71,7 @@
                     <div class="offer-section-box">
                         <div class="offer-section-inner">
                             <figure>
-                                <img src="assets/images/offer-section-img3.png" alt="" class="img-fluid">
+                                <img src="/images/offer-section-img3.png" alt="" class="img-fluid">
                             </figure>
                         </div>
                         <h5>Medical Escort</h5>
@@ -49,345 +80,219 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     <!-- Popup-Section -->
-    <div class="offer-section popup-section position-relative">
+    <div class="offer-section popup-section position-relative bg-light py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 mb-lg-0 mb-md-0 mb-3">
-                    <h2 data-aos="fade-up">Welcome to Sen<span class="support">Care</span></h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <div class="popup-btn">
-                      <a href="about.html">About us</a>
-                  </div>
-                  <h4>Need clinical advice?</h4>
-                  <h4 class="popup-section-number">0800 123 45 678</h4>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                    <h2 class="display-4" data-aos="fade-up">Welcome to Sen<span class="support">Care</span></h2>
+                    <p class="lead text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="mt-4">
+                        <a href="about.html" class="btn btn-primary btn-lg">About Us</a>
+                    </div>
+                    <h4 class="mt-4">Need Clinical Advice?</h4>
+                    <h4 class="popup-section-number text-primary">0800 123 45 678</h4>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 mb-lg-0 mb-md-0 mb-3">
-                    <div class="video-section-box">    
-                         <a class="popup-vimeo" href="https://previews.customer.envatousercontent.com/bfa4eae3-5be3-457e-9c5f-31e840d016e5/watermarked_preview/watermarked_preview.mp4">
-                                <figure class="mb-0">
-                                    <img src="assets/images/popup-video-img.png" style="cursor: pointer" alt="" class="img-fluid video-img">
-                                </figure>
-                            </a>
-                            <figure class="position-absolute popup-top-figure">
-                                <img src="assets/images/video-section-top-img.png" alt="" class="img-fluid">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                    <div class="video-section-box position-relative">
+                        <a class="popup-vimeo" href="https://previews.customer.envatousercontent.com/bfa4eae3-5be3-457e-9c5f-31e840d016e5/watermarked_preview/watermarked_preview.mp4">
+                            <figure class="mb-0">
+                                <img src="/images/popup-video-img.png" style="cursor: pointer" alt="Video Thumbnail" class="img-fluid rounded shadow">
                             </figure>
-                            <figure class="position-absolute popup-bottom-figure">
-                                <img src="assets/images/video-section-bottom-img.png" alt="" class="img-fluid">
-                            </figure>
+                        </a>
+                        <figure class="position-absolute top-0 start-0">
+                            <img src="/images/video-section-top-img.png" alt="Top Decoration" class="img-fluid">
+                        </figure>
+                        <figure class="position-absolute bottom-0 end-0">
+                            <img src="/images/video-section-bottom-img.png" alt="Bottom Decoration" class="img-fluid">
+                        </figure>
                     </div>
                 </div>
             </div>
-        </div>           
+        </div>
     </div>
     <!-- Counter-Section -->
-    <div class="counter-section2">
+    <div class="counter-section2 bg-light py-5">
         <div class="container">
-            <div class="counter-inner-row">
-            <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 mb-lg-0 mb-md-0 mb-sm-2">
-                        <div class="counter-inner-box vl-border">
-                            <h5><span class="counter">45</span></h5>
-                            <p>Donations Every Year</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 mb-lg-0 mb-md-0 mb-sm-2">
-                        <div class="counter-inner-box vl-right-border">
-                            <h5><span class="counter">690</span></h5>
-                            <p>Great Local Volunteers</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 mb-lg-0 mb-md-0 mb-sm-2">
-                        <div class="counter-inner-box">
-                            <h5><span class="counter">437</span></h5>
-                            <p>Face to Face Visits</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 mb-lg-0 mb-md-0 mb-sm-2">
-                        <div class="counter-inner-box border-right-box">
-                            <h5><span class="counter">170</span></h5>
-                            <p>Organized Local Events</p>
-                        </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="counter-inner-box p-4 border rounded shadow-sm">
+                        <h5 class="display-4 text-primary"><span class="counter">45</span></h5>
+                        <p class="text-muted">Donations Every Year</p>
                     </div>
                 </div>
-             </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="counter-inner-box p-4 border rounded shadow-sm">
+                        <h5 class="display-4 text-primary"><span class="counter">690</span></h5>
+                        <p class="text-muted">Great Local Volunteers</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="counter-inner-box p-4 border rounded shadow-sm">
+                        <h5 class="display-4 text-primary"><span class="counter">437</span></h5>
+                        <p class="text-muted">Face to Face Visits</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="counter-inner-box p-4 border rounded shadow-sm">
+                        <h5 class="display-4 text-primary"><span class="counter">170</span></h5>
+                        <p class="text-muted">Organized Local Events</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>  
+    </div>
 
     <!-- Service-Offer-Section -->
-  <div class="service-offer-section service-offer-section2">
+    <div class="service-offer-section bg-light py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                   <div class="service-offer-content" data-aos="fade-up">
-                    <h2>Services We<span class="support">Offer</span></h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                   </div>
-                    <div class="service-inner">
-                        <div class="row">
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <figure class="service-figure-mb">
-                                    <img src="assets/images/service-offer-left-img.png" alt="" class="img-fluid">
+            <div class="text-center mb-4">
+                <h2 class="display-4">Services We <span class="support">Offer</span></h2>
+                <p class="lead text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+                    <figure>
+                        <img src="/images/service-offer-left-img.png" alt="Service Offer" class="img-fluid rounded shadow">
+                    </figure>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="offer-inner-box p-4 border rounded shadow-sm text-center">
+                                <figure>
+                                    <img src="/images/offer-icon1.png" alt="Medical Record" class="img-fluid mb-3">
                                 </figure>
+                                <h4>Medical Record</h4>
+                                <p class="text-muted">Duis aute irure dolor in reprehenderit voluptate velit esse cillum.</p>
                             </div>
-                            <div class="col-lg-1 col-md-1 col-sm-1 d-lg-block d-none"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <div class="offer-inner-box offer-inner-box1 offer-inner-box2">
-                                            <figure class="service-figure-mb">
-                                                <img src="assets/images/offer-icon1.png" alt="" class="img-fluid">
-                                            </figure>
-                                            <h4>Medical Record</h4>
-                                            <p>Duis aute irure dolor in reprehen voluptate velit esse cillum.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <div class="offer-inner-box offer-inner-box1 offer-inner-box2">
-                                            <figure class="service-figure-mb">
-                                                <img src="assets/images/offer-icon2.png" alt="" class="img-fluid">
-                                            </figure>
-                                            <h4>Ambulance</h4>
-                                            <p>Duis aute irure dolor in reprehen voluptate velit esse cillum.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- row2 -->
-                                <div class="offer-section-row2">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="offer-inner-box offer-inner-box2">
-                                                <figure class="service-figure-mb">
-                                                    <img src="assets/images/offer-icon3.png" alt="" class="img-fluid">
-                                                </figure>
-                                                <h4>Medical Advice</h4>
-                                                <p>Duis aute irure dolor in reprehen voluptate velit esse cillum.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="offer-inner-box">
-                                                <figure class="service-figure-mb">
-                                                    <img src="assets/images/offer-icon4.png" alt="" class="img-fluid">
-                                                </figure>
-                                                <h4>24/7 Support</h4>
-                                                <p class="mb-0">Duis aute irure dolor in reprehen voluptate velit esse cillum.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="offer-inner-box p-4 border rounded shadow-sm text-center">
+                                <figure>
+                                    <img src="/images/offer-icon2.png" alt="Ambulance" class="img-fluid mb-3">
+                                </figure>
+                                <h4>Ambulance</h4>
+                                <p class="text-muted">Duis aute irure dolor in reprehenderit voluptate velit esse cillum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="offer-inner-box p-4 border rounded shadow-sm text-center">
+                                <figure>
+                                    <img src="/images/offer-icon3.png" alt="Medical Advice" class="img-fluid mb-3">
+                                </figure>
+                                <h4>Medical Advice</h4>
+                                <p class="text-muted">Duis aute irure dolor in reprehenderit voluptate velit esse cillum.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+                            <div class="offer-inner-box p-4 border rounded shadow-sm text-center">
+                                <figure>
+                                    <img src="/images/offer-icon4.png" alt="24/7 Support" class="img-fluid mb-3">
+                                </figure>
+                                <h4>24/7 Support</h4>
+                                <p class="text-muted mb-0">Duis aute irure dolor in reprehenderit voluptate velit esse cillum.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>           
+        </div>
     </div>
+ 
     <!--Happy-Clients-Section  -->
 
-    <section class="happy-clients-section happy-clients-section2" data-aos="fade-up">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                <div class="review-section-outer position-relative">
-                    <div class="carousel-card">
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <figure><img src="assets/images/happy-clients-section-img2.png" alt="" class="img-fluid"></figure>
-                        <h4 class="carousel-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident deserunt mollit anim id est laborum.</h4>
-                        <div class="about-border"></div>
-                       <h4 class="carousel-title">Michel Barnier</h4>
-                       <p class="carousel-end-text">Senior Advisor</p>
-                       <figure class="carousel-bottom-fig"><img src="assets/images/carousel-bottom-img.png" alt="" class="img-fluid"></figure>
-                      </div>
+    <section class="happy-clients-section bg-light py-5" data-aos="fade-up">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="display-4">What Our Clients Say</h2>
+                <p class="lead text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div id="clientCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure class="text-center">
+                            <img src="/images/happy-clients-section-img2.png" alt="Client Image" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+                        </figure>
+                        <h4 class="carousel-text">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident deserunt mollit anim id est laborum.”</h4>
+                        <div class="about-border my-3"></div>
+                        <h4 class="carousel-title">Michel Barnier</h4>
+                        <p class="carousel-end-text text-muted">Senior Advisor</p>
                     </div>
-                  </div>
+                    <!-- Add more carousel items here -->
+                    <div class="carousel-item">
+                        <figure class="text-center">
+                            <img src="/images/happy-clients-section-img3.png" alt="Client Image" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+                        </figure>
+                        <h4 class="carousel-text">“Another testimonial goes here. This is a great service!”</h4>
+                        <div class="about-border my-3"></div>
+                        <h4 class="carousel-title">Jane Doe</h4>
+                        <p class="carousel-end-text text-muted">Project Manager</p>
+                    </div>
                 </div>
-                </div>
-            </div>       
+                <a class="carousel-control-prev" href="#clientCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#clientCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-    </div>
-    </section> 
+    </section>
+    
 
     <!-- Latest-Blogs-Section -->
-   <div class="blogs-section latest-blogs-section">
-    <div class="container">
-        <h2 data-aos="fade-up">Latest <span class="blogs-span"> Blogs</span></h2>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 mb-sm-4">
-                <div class="blogs-content-box">
-                <figure><img src="assets/images/latest-blog-img1.png"  alt="" class="img-fluid"></figure>
-                <p class="blogs-title">February 29, 2020 in London</p>
-                    <h5 class="blogs-text">The Nation's No.1 Home Care</h5>
-                <div class="blogs-btn">
-                    <a href="#" data-toggle="modal" data-target="#blog-model-1">Learn More</a>
+    <div class="blogs-section latest-blogs-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4" data-aos="fade-up">Latest <span class="blogs-span">Blogs</span></h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="blogs-content-box border rounded shadow-sm p-3">
+                        <figure class="text-center">
+                            <img src="/images/latest-blog-img1.png" alt="Blog Image 1" class="img-fluid rounded">
+                        </figure>
+                        <p class="blogs-title text-muted">February 29, 2020 in London</p>
+                        <h5 class="blogs-text">The Nation's No.1 Home Care</h5>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#blog-model-1">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 mb-sm-4">
-                <div class="blogs-content-box">
-                <figure><img src="assets/images/latest-blog-img2.png"  alt="" class="img-fluid"></figure>
-                <p class="blogs-title">February 29, 2020 in London</p>
-                    <h5 class="blogs-text">Caring Senior Service</h5>
-                <div class="blogs-btn">
-                    <a href="#" data-toggle="modal" data-target="#blog-model-2">Learn More</a>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="blogs-content-box border rounded shadow-sm p-3">
+                        <figure class="text-center">
+                            <img src="/images/latest-blog-img2.png" alt="Blog Image 2" class="img-fluid rounded">
+                        </figure>
+                        <p class="blogs-title text-muted">February 29, 2020 in London</p>
+                        <h5 class="blogs-text">Caring Senior Service</h5>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#blog-model-2">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="blogs-content-box mb-0">
-                <figure><img src="assets/images/latest-blog-img3.png"  alt="" class="img-fluid"></figure>
-                <p class="blogs-title">February 29, 2020 in London</p>
-                    <h5 class="blogs-text">Sunrise Senior Living</h5>
-                <div class="blogs-btn">
-                    <a href="#" data-toggle="modal" data-target="#blog-model-3">Learn More</a>
-                </div>        
-            </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="blogs-content-box border rounded shadow-sm p-3">
+                        <figure class="text-center">
+                            <img src="/images/latest-blog-img3.png" alt="Blog Image 3" class="img-fluid rounded">
+                        </figure>
+                        <p class="blogs-title text-muted">February 29, 2020 in London</p>
+                        <h5 class="blogs-text">Sunrise Senior Living</h5>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#blog-model-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    
 
-<!-- Footer -->
-<div class="footer-section footer-img-section footer-index-img position-relative">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <figure class="sencare-logo-footer">
-                    <a class="navbar-brand mr-0" href="index.html"><img src="assets/images/sencare-logo2.png" alt="" class="img-fluid"></a>
-                </figure>
-                <p class="footer-text">Copyright 2020 DesigningMedia. All Rights reserved</p>
-                <div class="social-icons text-center">
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter social-networks"></i></a></li>
-                        <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook-f social-networks"></i></a></li>
-                        <li><a href="#" class="text-decoration-none"><i class="fa-brands fa-pinterest-p social-networks"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-2 col-sm-12 d-lg-block d-none">
-                <ul class="list-unstyled footer-list-ul">
-                    <li class="list-item footer-margin-left">
-                        <h4 class="footer-link  footer-heading">
-                            Useful Links
-                        </h4>
-                    </li>
-                    <li>
-                        <a href="about.html" class="text-decoration-none footer-link-p">
-                            About us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="comming-soon.html" class="text-decoration-none footer-link-p">
-                            Comming Soon
-                        </a>
-                    </li>
-                    <li>
-                        <a href="404page.html" class="text-decoration-none footer-link-p">
-                           404 page
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html" class="text-decoration-none footer-link-p">
-                            About us
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="faq.html" class="text-decoration-none footer-link-p">
-                            Faq Page
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="text-decoration-none footer-link-p">
-                            Conatct us
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <ul class="list-unstyled footer-list-ul contact-info-heading">
-                    <li class="list-item footer-margin-left">
-                        <h4 class="footer-link footer-heading">
-                            Contact Info
-                        </h4>
-                    </li>
-                    <li class="footer-margin-bottom">
-                        <a href="about.html" class="text-decoration-none">
-                            Address:
-                        </a>
-                    </li>
-                    <li class="pr-2 mb-3">
-                        <a  class="text-decoration-none">
-                            121 King Street Melbourne,
-                            3000, Australia
-                        </a>
-                    </li>
-                    <li class="footer-margin-bottom">
-                        <a class="text-decoration-none">
-                            Email:
-                        </a>
-                    </li>
-                    <li class="mb-3">
-                        <a href="mailto:info@sencare.com" class="text-decoration-none">
-                            info@sencare.com
-                        </a>
-                    </li>
-
-                    <li class="footer-margin-bottom">
-                        <a href="Find-Dealer.html" class="text-decoration-none">
-                            Phone:
-                        </a>
-                    </li>
-                    <li>
-                        <a  href="tel:+123456789" class="text-decoration-none">
-                            +1 23 45 6789
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <ul class="list-unstyled">
-                    <li class="list-item">
-                        <h4 class="footer-link  footer-heading instagram-heading">
-                           Instagram
-                        </h4>
-                    </li>
-                </ul>
-                <div class="footer-images">
-                    <div class="images-inner-box">
-                        <ul class="list-unstyled mb-1">
-                            <li class="list-item d-inline-block">
-                                <figure class="mb-0"><img src="assets/images/footer-img1.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                            <li class="list-item d-inline-block">
-                                <figure  class="mb-0"><img src="assets/images/footer-img2.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                            <li class="list-item d-inline-block">
-                                <figure  class="mb-0"><img src="assets/images/footer-img3.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="images-inner-box">
-                        <ul class="list-unstyled">
-                            <li class="list-item d-inline-block">
-                                <figure class="mb-0"><img src="assets/images/footer-img4.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                            <li class="list-item d-inline-block">
-                                <figure  class="mb-0"><img src="assets/images/footer-img5.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                            <li class="list-item d-inline-block">
-                                <figure  class="mb-0"><img src="assets/images/footer-img6.png" alt="Snow" class="img-fluid footer-imgs"></figure>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</div>      
+     
 
 <!-- BLOG SECTION POPUP -->
 <div id="blog-model-1" class="modal fade blog-model-con" tabindex="-1" style="display: none;" aria-hidden="true">
@@ -400,7 +305,7 @@
                 <div class="blog-box-item mb-0">
                     <div class="blog-img">
                         <figure class="mb-0">
-                            <img src="assets/images/popup-blog-img1.jpg" alt="blog-img" class="img-fluid">
+                            <img src="/images/popup-blog-img1.jpg" alt="blog-img" class="img-fluid">
                         </figure>
                     </div>
                     <div class="blog-content pl-0 pr-0">
@@ -457,7 +362,7 @@
                 <div class="blog-box-item mb-0">
                     <div class="blog-img">
                         <figure class="mb-0">
-                            <img src="assets/images/popup-blog-img2.jpg" alt="blog-img" class="img-fluid">
+                            <img src="/images/popup-blog-img2.jpg" alt="blog-img" class="img-fluid">
                         </figure>
                     </div>
                     <div class="blog-content pl-0 pr-0">
@@ -514,7 +419,7 @@
                 <div class="blog-box-item mb-0">
                     <div class="blog-img">
                         <figure class="mb-0">
-                            <img src="assets/images/popup-blog-img3.jpg" alt="blog-img" class="img-fluid">
+                            <img src="/images/popup-blog-img3.jpg" alt="blog-img" class="img-fluid">
                         </figure>
                     </div>
                     <div class="blog-content pl-0 pr-0">
@@ -561,8 +466,10 @@
        </div>
     </div>
 </div>
-   
 
     
-</main>
+ 
+
+
+
 <Footer></Footer>

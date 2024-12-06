@@ -12,7 +12,4 @@
     <a href="/services" class="btn">Back to Services</a>
 </section>
 
-<style>
-    /* Same styles as Elderly Care page */
-    @import './elderly-care.svelte';
-</style>
+
